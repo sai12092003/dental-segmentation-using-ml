@@ -16,12 +16,13 @@
 ### 1. Clone the Repository
 
 '''bash
- git clone https://github.com/yourusername/dental-teeth-segmentation.git cd dental-teeth-segmentation 
+ git clone https://github.com/yourusername/dental-teeth-segmentation.git 
+ cd dental-teeth-segmentation 
  
  ## 2. Create a Virtual Environment
 Create a virtual environment to manage dependencies:
 
-bash
+'''bash
 Copy code
 python3 -m venv venv
 Activate the virtual environment:
