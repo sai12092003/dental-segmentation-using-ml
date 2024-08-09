@@ -15,9 +15,10 @@
 
 ### 1. Clone the Repository
 
-```bash git clone https://github.com/yourusername/dental-teeth-segmentation.git cd dental-teeth-segmentation
-
-## 2. Create a Virtual Environment
+'''bash
+ git clone https://github.com/yourusername/dental-teeth-segmentation.git cd dental-teeth-segmentation 
+ 
+ ## 2. Create a Virtual Environment
 Create a virtual environment to manage dependencies:
 
 bash
@@ -69,15 +70,15 @@ print(f"Cavity detected: {result}")
 5. Run the Application
 Execute the app.py to run the dental teeth segmentation and cavity detection:
 
-bash
+'''bash
 Copy code
 python app.py
-Usage
+
+#Usage
 Image Input: Provide the dental image to the application.
 Cavity Detection: The app processes the image and outputs the cavity number.
-Results: Use the output to assist in diagnosis and treatment planning.
-Contributing
+#Results: Use the output to assist in diagnosis and treatment planning.
+#Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs or feature requests.
 
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+
