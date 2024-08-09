@@ -15,10 +15,9 @@
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/yourusername/dental-teeth-segmentation.git
-cd dental-teeth-segmentation
-2. Create a Virtual Environment
+```bash git clone https://github.com/yourusername/dental-teeth-segmentation.git cd dental-teeth-segmentation
+
+## 2. Create a Virtual Environment
 Create a virtual environment to manage dependencies:
 
 bash
