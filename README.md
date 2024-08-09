@@ -15,9 +15,10 @@
 
 ### 1. Clone the Repository
 
-'''bash
+```bash
  git clone https://github.com/yourusername/dental-teeth-segmentation.git 
- cd dental-teeth-segmentation 
+ cd dental-teeth-segmentation
+```
  
  ## 2. Create a Virtual Environment
 Create a virtual environment to manage dependencies:
@@ -28,19 +29,21 @@ python3 -m venv venv
 Activate the virtual environment:
 
 On Windows:
-bash
+```bash
 Copy code
 venv\Scripts\activate
-On macOS/Linux:
-bash
+```
+```bash
 Copy code
 source venv/bin/activate
+```
 3. Install Ultra-Analyticals and Other Dependencies
 Install the necessary Python packages, including the ultra-analytical models:
 
-bash
+```bash
 Copy code
 pip install -r requirements.txt
+```
 Add the following to your requirements.txt if it's not already included:
 
 plaintext
@@ -71,10 +74,9 @@ print(f"Cavity detected: {result}")
 5. Run the Application
 Execute the app.py to run the dental teeth segmentation and cavity detection:
 
-'''bash
-Copy code
+```bash
 python app.py
-
+```
 #Usage
 Image Input: Provide the dental image to the application.
 Cavity Detection: The app processes the image and outputs the cavity number.
